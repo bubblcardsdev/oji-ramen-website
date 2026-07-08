@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import ojiRamenLogo from "../../public/images/oji-ramen-logo.png";
 
 export default function Nav() {
   return (
@@ -7,7 +8,7 @@ export default function Nav() {
       <nav className="mx-auto flex max-w-5xl items-center justify-between px-6 py-5 sm:px-10">
         <Link href="/" className="flex items-center gap-3">
           <Image
-            src="/images/oji-ramen-logo.png"
+            src={ojiRamenLogo}
             alt="Oji Ramen"
             width={32}
             height={32}
