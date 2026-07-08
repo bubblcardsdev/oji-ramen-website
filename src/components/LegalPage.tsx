@@ -3,7 +3,7 @@ import FadeIn from "@/components/FadeIn";
 
 export default function LegalPage({ doc }: { doc: LegalDoc }) {
   return (
-    <div className="mx-auto max-w-3xl px-6 py-20 sm:px-10">
+    <div className="mx-auto w-full max-w-3xl px-6 py-20 sm:px-10">
       <FadeIn>
         <p className="text-xs font-medium uppercase tracking-[0.2em] text-ramen-red">
           {doc.complianceFramework}

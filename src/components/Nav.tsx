@@ -5,7 +5,7 @@ import ojiRamenLogo from "../../public/images/oji-ramen-logo.png";
 export default function Nav() {
   return (
     <header className="relative z-20 bg-ink">
-      <nav className="mx-auto flex max-w-5xl items-center justify-between px-6 py-5 sm:px-10">
+      <nav className="mx-auto flex max-w-5xl flex-col gap-4 px-6 py-5 sm:flex-row sm:items-center sm:justify-between sm:gap-6 sm:px-10">
         <Link href="/" className="flex items-center gap-3">
           <Image
             src={ojiRamenLogo}
@@ -14,11 +14,11 @@ export default function Nav() {
             height={32}
             className="rounded-sm"
           />
-          <span className="font-display text-base tracking-wide text-cream">
+          <span className="whitespace-nowrap font-display text-base tracking-wide text-cream">
             OJI RAMEN
           </span>
         </Link>
-        <div className="flex items-center gap-6 text-sm text-cream/70">
+        <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-cream/70">
           <Link href="/privacy" className="transition-colors hover:text-cream">
             Privacy
           </Link>
