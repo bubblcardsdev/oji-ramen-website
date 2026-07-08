@@ -1,6 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
+import ojiRamenTextLogo from "../../public/images/oji-ramen-text.png"
 
 const steamPuffs = [
   { left: "18%", size: 180, delay: 0 },
@@ -46,7 +48,13 @@ export default function ComingSoonHero() {
           transition={{ duration: 0.7, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
           className="font-display text-6xl leading-none tracking-wide text-cream sm:text-8xl"
         >
-          OJI RAMEN
+          <Image
+            src={ojiRamenTextLogo}
+            alt="Oji Ramen"
+            className="mx-auto"
+            width={800}
+            height={800}
+          />
         </motion.h1>
 
         <motion.p

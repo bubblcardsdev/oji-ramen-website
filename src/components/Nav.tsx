@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import ojiRamenLogo from "../../public/images/oji-ramen-logo.png";
-
+import ojiRamenTextLogo from "../../public/images/oji-ramen-text.png"
 export default function Nav() {
   return (
     <header className="relative z-20 bg-ink">
@@ -14,9 +14,16 @@ export default function Nav() {
             height={32}
             className="rounded-sm"
           />
-          <span className="whitespace-nowrap font-display text-base tracking-wide text-cream">
+          <Image
+            src={ojiRamenTextLogo}
+            alt="Oji Ramen"
+            width={128}
+            height={32}
+            className="rounded-sm"
+          />
+          {/* <span className="whitespace-nowrap font-display text-base tracking-wide text-cream">
             OJI RAMEN
-          </span>
+          </span> */}
         </Link>
         <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-cream/70">
           <Link href="/privacy" className="transition-colors hover:text-cream">
