@@ -12,7 +12,6 @@ export default function Nav() {
             width={32}
             height={32}
             className="rounded-sm"
-            priority
           />
           <span className="font-display text-base tracking-wide text-cream">
             OJI RAMEN
