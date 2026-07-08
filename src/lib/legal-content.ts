@@ -112,6 +112,76 @@ export const privacyPolicy: LegalDoc = {
   ],
 };
 
+export const deleteAccount: LegalDoc = {
+  title: "Delete Your Account",
+  effectiveDate: "July 1, 2026",
+  complianceFramework: "Account Deletion & Data Retention Policy",
+  sections: [
+    {
+      heading: "1. Overview",
+      paragraphs: [
+        "Oji Ramen allows users to permanently delete their account and associated personal data at any time. This page outlines the account deletion process and our data retention policy.",
+      ],
+    },
+    {
+      heading: "2. How to Delete Your Account",
+      paragraphs: [
+        "You can delete your account directly from the Oji Ramen app by following these steps:",
+      ],
+      bullets: [
+        { text: "Open the Oji Ramen app." },
+        { text: "Sign in to your account." },
+        { text: "Go to Profile." },
+        { text: "Tap Settings." },
+        { text: "Select Delete Account." },
+        { text: "Confirm your account deletion request." },
+      ],
+      note: 'Alternatively, you can request account deletion by emailing us at support@ojiramen.com from your registered email address with the subject "Account Deletion Request." Your request will be processed within 30 days after verification.',
+    },
+    {
+      heading: "3. What Data Is Deleted",
+      paragraphs: [
+        "When your account is deleted, the following information is permanently removed:",
+      ],
+      bullets: [
+        { text: "Your profile information (name, mobile number, email address, if applicable)" },
+        { text: "Account credentials and login information" },
+        { text: "Loyalty membership information" },
+        { text: "Reward redemption history" },
+        { text: "Visit history associated with your account" },
+        { text: "Notification preferences" },
+        { text: "App preferences and settings" },
+        { text: "Any personal information associated with your account" },
+      ],
+    },
+    {
+      heading: "4. What Data May Be Retained",
+      paragraphs: [
+        "Some information may be retained for a limited period where required by law or for legitimate business purposes, including:",
+      ],
+      bullets: [
+        { text: "Records required for legal, tax, or regulatory compliance" },
+        { text: "Information necessary for fraud prevention, dispute resolution, or security investigations" },
+        { text: "Anonymous or aggregated analytics data that cannot identify you personally" },
+      ],
+      note: "Any retained information will be securely stored and deleted once the applicable retention period has expired.",
+    },
+    {
+      heading: "5. Processing Time",
+      paragraphs: [
+        "Account deletion requests are completed within 180 days after successful verification. Once your account is deleted, this action is permanent and cannot be undone.",
+      ],
+    },
+    {
+      heading: "6. Need Help?",
+      paragraphs: [
+        "If you have any questions or experience issues deleting your account, please contact us:",
+      ],
+      bullets: [{ label: "Email", text: "support@ojiramen.com" }],
+    },
+  ],
+};
+
 export const termsAndConditions: LegalDoc = {
   title: "Terms & Conditions",
   effectiveDate: "July 1, 2026",

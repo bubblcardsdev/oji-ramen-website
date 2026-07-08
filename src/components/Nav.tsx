@@ -25,6 +25,9 @@ export default function Nav() {
           <Link href="/terms" className="transition-colors hover:text-cream">
             Terms
           </Link>
+          <Link href="/delete-account" className="transition-colors hover:text-cream">
+            Delete Account
+          </Link>
         </div>
       </nav>
     </header>
