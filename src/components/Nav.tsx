@@ -25,7 +25,7 @@ export default function Nav() {
             OJI RAMEN
           </span> */}
         </Link>
-        <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-cream/70">
+        {/* <div className="flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-cream/70">
           <Link href="/privacy" className="transition-colors hover:text-cream">
             Privacy
           </Link>
@@ -35,7 +35,7 @@ export default function Nav() {
           <Link href="/delete-account" className="transition-colors hover:text-cream">
             Delete Account
           </Link>
-        </div>
+        </div> */}
       </nav>
     </header>
   );

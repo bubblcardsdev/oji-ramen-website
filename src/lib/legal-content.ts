@@ -100,8 +100,8 @@ export const privacyPolicy: LegalDoc = {
       ],
       bullets: [
         { label: "Designation", text: "Data Protection & Grievance Redressal Officer" },
-        { label: "Email", text: "privacy@yourrestaurantapp.com" },
-        { label: "Mailing Address", text: "[Insert Restaurant Corporate Office Physical Address]" },
+        { label: "Email", text: "support@pryzma.in" },
+        { label: "Mailing Address", text: "6/9, MV Enclave, 3rd cross street, CIT Colony, Mylapore, Chennai, Tamil Nadu, 600004" },
         {
           label: "Turnaround Time",
           text: "All statutory DPDP complaints will be acknowledged within 48 hours and resolved within 7 business days.",
