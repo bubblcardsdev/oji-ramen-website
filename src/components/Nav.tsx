@@ -4,7 +4,7 @@ import ojiRamenLogo from "../../public/images/oji-ramen-logo.png";
 import ojiRamenTextLogo from "../../public/images/oji-ramen-text.png"
 export default function Nav() {
   return (
-    <header className="relative z-20 bg-ink">
+    <header className="sticky top-0 z-50 bg-ink border-b border-cream/5">
       <nav className="mx-auto flex max-w-5xl flex-col gap-4 px-6 py-5 sm:flex-row sm:items-center sm:justify-between sm:gap-6 sm:px-10">
         <Link href="/" className="flex items-center gap-3">
           <Image
