@@ -182,6 +182,37 @@ export const deleteAccount: LegalDoc = {
   ],
 };
 
+export const support: LegalDoc = {
+  title: "Support",
+  effectiveDate: "July 1, 2026",
+  complianceFramework: "Customer Support",
+  sections: [
+    {
+      heading: "1. Contact Us",
+      paragraphs: [
+        "Have a question, feedback, or need help with the Oji Ramen app or your loyalty account? Our support team is here to help.",
+      ],
+      bullets: [{ label: "Email", text: "support@pryzma.in" }],
+    },
+    {
+      heading: "2. What We Can Help With",
+      bullets: [
+        { text: "Account access, registration, or login issues" },
+        { text: "Questions about loyalty tiers, visit tracking, or rewards" },
+        { text: "Issues redeeming a discount or voucher" },
+        { text: "Requests related to your personal data or account deletion" },
+        { text: "General feedback about the app or in-store experience" },
+      ],
+    },
+    {
+      heading: "3. Response Time",
+      paragraphs: [
+        "We aim to acknowledge all support requests within 48 hours and resolve them within 7 business days.",
+      ],
+    },
+  ],
+};
+
 export const termsAndConditions: LegalDoc = {
   title: "Terms & Conditions",
   effectiveDate: "July 1, 2026",

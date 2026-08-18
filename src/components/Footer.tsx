@@ -14,6 +14,9 @@ export default function Footer() {
           <Link href="/delete-account" className="transition-colors hover:text-ink">
             Delete Account
           </Link>
+          <Link href="/support" className="transition-colors hover:text-ink">
+            Support
+          </Link>
         </div>
         <p>&copy; {new Date().getFullYear()} Oji Ramen. All rights reserved.</p>
       </div>
