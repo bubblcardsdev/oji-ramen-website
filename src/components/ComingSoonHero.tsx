@@ -115,7 +115,7 @@ export default function ComingSoonHero() {
           transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
           className="mb-6 rounded-full border border-ramen-red/40 px-4 py-1.5 text-xs font-medium uppercase tracking-[0.2em] text-ramen-red"
         >
-          Coming Soon
+          Ojiramen Ramen &middot; Alwarpet, Chennai
         </motion.span>
 
         <motion.h1
@@ -139,8 +139,8 @@ export default function ComingSoonHero() {
           transition={{ duration: 0.7, delay: 0.35, ease: [0.22, 1, 0.36, 1] }}
           className="mt-6 max-w-md text-lg text-cream/70"
         >
-          Something warm is simmering. A new ramen house is on its way &mdash;
-          stay tuned.
+          Authentic Japanese ramen, home-made noodles and a cozy table in
+          Alwarpet, Chennai.
         </motion.p>
 
         <motion.div

@@ -102,6 +102,8 @@ export const privacyPolicy: LegalDoc = {
       bullets: [
         { label: "Designation", text: "Data Protection & Grievance Redressal Officer" },
         { label: "Email", text: "support@ojiramen.in" },
+        { label: "Phone", text: "044 4775 9900" },
+        { label: "Mailing Address", text: "No. 103B (Old), New No. 50/A, Bava Street, Alwarpet, Chennai, Tamil Nadu 600018" },
         {
           label: "Turnaround Time",
           text: "All statutory DPDP complaints will be acknowledged within 48 hours and resolved within 7 business days.",
@@ -191,7 +193,11 @@ export const support: LegalDoc = {
       paragraphs: [
         "Have a question, feedback, or need help with the Oji Ramen app or your loyalty account? Our support team is here to help.",
       ],
-      bullets: [{ label: "Email", text: "support@ojiramen.in" }],
+      bullets: [
+        { label: "Email", text: "support@ojiramen.in" },
+        { label: "Phone", text: "044 4775 9900" },
+        { label: "Address", text: "No. 103B (Old), New No. 50/A, Bava Street, Alwarpet, Chennai, Tamil Nadu 600018" },
+      ],
     },
     {
       heading: "2. What We Can Help With",
