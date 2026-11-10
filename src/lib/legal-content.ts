@@ -58,6 +58,7 @@ export const privacyPolicy: LegalDoc = {
         { text: "Incrementing your cumulative visit counter dynamically to upgrade your loyalty tier." },
         { text: "Issuing conditional discount codes, tier perks, and personalized culinary notifications." },
         { text: "Preventing loyalty system fraud, account duplication, or unauthorized perk redemptions." },
+        { text: "Contacting you on WhatsApp, only with your consent, to send order, visit and loyalty updates, vouchers and offers. You can opt out at any time by replying STOP or by emailing support@ojiramen.in, and we will stop messaging you on WhatsApp. Messages are delivered through the WhatsApp Business Platform, which is subject to WhatsApp's own terms and privacy policy." },
       ],
     },
     {
@@ -100,14 +101,12 @@ export const privacyPolicy: LegalDoc = {
       ],
       bullets: [
         { label: "Designation", text: "Data Protection & Grievance Redressal Officer" },
-        { label: "Email", text: "support@pryzma.in" },
-        { label: "Mailing Address", text: "6/9, MV Enclave, 3rd cross street, CIT Colony, Mylapore, Chennai, Tamil Nadu, 600004" },
+        { label: "Email", text: "support@ojiramen.in" },
         {
           label: "Turnaround Time",
           text: "All statutory DPDP complaints will be acknowledged within 48 hours and resolved within 7 business days.",
         },
       ],
-      note: "The email and mailing address above are placeholders carried over from the source document — replace them with Oji Ramen's real contact details before publishing.",
     },
   ],
 };
@@ -136,7 +135,7 @@ export const deleteAccount: LegalDoc = {
         { text: "Select Delete Account." },
         { text: "Confirm your account deletion request." },
       ],
-      note: 'Alternatively, you can request account deletion by emailing us at support@ojiramen.com from your registered email address with the subject "Account Deletion Request." Your request will be processed within 30 days after verification.',
+      note: 'Alternatively, you can request account deletion by emailing us at support@ojiramen.in from your registered email address with the subject "Account Deletion Request." Your request will be processed within 30 days after verification.',
     },
     {
       heading: "3. What Data Is Deleted",
@@ -177,7 +176,7 @@ export const deleteAccount: LegalDoc = {
       paragraphs: [
         "If you have any questions or experience issues deleting your account, please contact us:",
       ],
-      bullets: [{ label: "Email", text: "support@ojiramen.com" }],
+      bullets: [{ label: "Email", text: "support@ojiramen.in" }],
     },
   ],
 };
@@ -192,7 +191,7 @@ export const support: LegalDoc = {
       paragraphs: [
         "Have a question, feedback, or need help with the Oji Ramen app or your loyalty account? Our support team is here to help.",
       ],
-      bullets: [{ label: "Email", text: "support@pryzma.in" }],
+      bullets: [{ label: "Email", text: "support@ojiramen.in" }],
     },
     {
       heading: "2. What We Can Help With",
